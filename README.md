@@ -35,6 +35,51 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 - You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
+## PEP8 Checks
+
+- All 10 pages that ended with **.py** were PEP8 checked for errors using [CI Python Linter](https://pep8ci.herokuapp.com).
+- All 10 pages return no errors.
+
+### app_pages/mulipage.py
+
+![multipage_PEP8](assets/imagesforreadme/01_multipage.png)
+
+### app_pages/page_detector.py
+
+![page_detector_PEP8](assets/imagesforreadme/02_page_detector.png)
+
+### app_pages/page_ml_performance.py
+
+![ml_performance_PEP8](assets/imagesforreadme/03_ml_performance.png)
+
+### app_pages/page_project_hypothesis.py
+
+![summary_PEP8](assets/imagesforreadme/04_hypothesis.png)
+
+### app_pages/page_summary.py
+
+![summary_PEP8](assets/imagesforreadme/05_summary.png)
+
+### app_pages/page_visualiser.py
+
+![visualiser_PEP8](assets/imagesforreadme/06_visualiser.png)
+
+### src/machine_learning/evaluate_clf.py
+
+![evaluate_clf_PEP8](assets/imagesforreadme/07_evaluate_clf.png)
+
+### src/machine_learning/predictive_analysis.py
+
+![predictive_analysis_PEP8](assets/imagesforreadme/08_predictive_analysis.png)
+
+### src/data_management.py
+
+![data_management_PEP8](assets/imagesforreadme/09_data_management.png)
+
+### app.py
+
+![app_PEP8](assets/imagesforreadme/10_app.png)
+
 ## Deployment
 
 ### Render
