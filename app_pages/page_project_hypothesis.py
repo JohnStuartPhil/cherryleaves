@@ -3,13 +3,39 @@ import matplotlib.pyplot as plt
 
 
 def page_project_hypothesis_body():
-    st.write("### Project Hypothesis and Validation")
+    st.write("### Business Requirement 1: Hypothesis and Validation")
+
+    st.info(
+        f"**Hypothesis** \n"
+        f"* It is suspected that some of the cherry leaves have a powdery \n"
+        f"on them differentiate them from a healthy cherry leaf. \n\n"
+    )
 
     st.success(
-        f"* Sentence 1, "
-        f"continued. \n\n"
-        f"* Sentence 2. "
-        f"continued "
-        f"continued."
+        f"**Validation** \n\n"
+        f"* text here. \n"
+    )
 
+    st.warning(
+        f"**Warning** \n\n"
+        f"* There are visible differences between average infected and \n "
+        f"healthy images."
+    )
+
+    st.write("### Business Requirement 2: Hypothesis and Validation")
+
+    st.info(
+        f"**Hypothesis** \n"
+        f"* It is suspected that some of the cherry leaves have a powdery \n"
+        f"on them. The difference between \n\n"
+    )
+
+    st.success(
+        f"**Validation** \n\n"
+        f"* text here. \n"
+    )
+
+    st.warning(
+        f"**Warning** \n\n"
+        f"* Prediction accuracy 98%."
     )
