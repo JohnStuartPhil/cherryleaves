@@ -20,20 +20,21 @@ def page_cherry_leaves_visualiser_body():
     version = 'v1'
     if st.checkbox("Difference between average and variability image"):
 
-      avg_powdery_mildew = plt.imread(
-         f"outputs/{version}/avg_var_powdery_mildew.png")
-      avg_healthy = plt.imread(f"outputs/{version}/avg_var_healthy.png")
+        avg_powdery_mildew = plt.imread(
+           f"outputs/{version}/avg_var_powdery_mildew.png")
+        avg_healthy = plt.imread(f"outputs/{version}/avg_var_healthy.png")
 
-      st.warning(
-        f"* We notice the average and variability images did not show "
-        f"patterns where we could intuitively differentiate one from another. "
-        f"However, a small difference in the colour pigment of the average "
-        f"images is seen for both labels.")
+        st.warning(
+          f"* We notice the average and variability images did not show "
+          f"patterns where we could intuitively differentiate one from "
+          f"another. "
+          f"However, a small difference in the colour pigment of the average "
+          f"images is seen for both labels.")
 
-      st.image(avg_powdery_mildew, caption='Powdery Mildew Leaf - Average and '
-               'Variability')
-      st.image(avg_healthy, caption='Healthy Leaf - Average and Variability')
-      st.write("---")
+        st.image(avg_powdery_mildew, caption='Powdery Mildew Leaf - Average '
+                 'and Variability')
+        st.image(avg_healthy, caption='Healthy Leaf - Average and Variability')
+        st.write("---")
 
     if st.checkbox("Differences between average powdery mildew and average "
                    "healthy leaves"):
@@ -47,16 +48,17 @@ def page_cherry_leaves_visualiser_body():
              diff_between_avgs, caption='Difference between average images')
 
     if st.checkbox("Image Montage"):
-      st.write("*To refresh the montage, click on the 'Create Montage' button")
-      my_data_dir = 'inputs/cherry_leaves_dataset/cherry-leaves'
-      labels = os.listdir(my_data_dir+'/validation')
-      label_to_display = st.selectbox(
+        st.write(
+           "*To refresh the montage, click on the 'Create Montage' button")
+        my_data_dir = 'inputs/cherry_leaves_dataset/cherry-leaves'
+        labels = os.listdir(my_data_dir+'/validation')
+        label_to_display = st.selectbox(
          label="Select label", options=labels, index=0)
-      if st.button("Create Montage"):
-        image_montage(dir_path=my_data_dir+'/validation',
-                      label_to_display=label_to_display,
-                      nrows=8, ncols=3, figsize=(10, 25))
-      st.write("---")
+        if st.button("Create Montage"):
+            image_montage(dir_path=my_data_dir+'/validation',
+                          label_to_display=label_to_display, nrows=8,
+                          ncols=3, figsize=(10, 25))
+        st.write("---")
 
 
 def image_montage(dir_path, label_to_display, nrows, ncols, figsize=(15, 10)):
