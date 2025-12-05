@@ -49,7 +49,7 @@ def page_summary_body():
     )
 
     st.success(
-        f"The project has 2 business requirements: \n"
+        f"**The project has 2 business requirements:** \n"
         f"* 1 - The client is interested in conducting a study to visually "
         f"differentiate a cherry leaf that is healthy from one that contains\n"
         f" powdery mildew. \n"
