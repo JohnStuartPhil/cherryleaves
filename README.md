@@ -29,7 +29,10 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Dashboard Design
 
 #### Summary page
-- Contains General Infomration about the client's background, infomration about the dataset, a link to the README file and the business requirements.
+- Contains General Infomration about the client's background
+- Infomration about the dataset
+- A link to the README file 
+- The business requirements
   
 #### Cherry Leaves Visualiser page
 - Shows the difference between average and variability image
