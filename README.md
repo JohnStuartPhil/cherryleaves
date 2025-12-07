@@ -43,7 +43,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 #### Business Requirement 2
 - Business requiremnt 2 was a more technical requirement with the client wanting a function to predict whether a cherry leaf was healthy or had powdery mildew. This involved taking the images and putting them through a model which had to be trained to recognise when an image that it was presented with could make a prediction as to whether it was a healthy cherry leaf or a powdery mildew leaf.
 - The result was a user interface with a file uploader widget. A convenient link to the kaggle dataset is provided and the user can select any leaf (helathy or powder mildew), drag and drop the file where indicated and a prediction on the leaf in question shall be made. 
-- The prediction made, clearly states if it is belived to be healthy or pwodery mildew, displays the leaf selected, provides a graph showing the percentage of the chances of the leaf being either helthly or with powdery mildew and the option to donwload a reposrt of the anaylsys in Microsft Excel.
+- The prediction made, clearly states if it is belived to be healthy or pwodery mildew, displays the leaf selected, provides a graph showing the percentage of the chances of the leaf being either helthly or with powdery mildew and the option to donwload a reposrt of the anaylsys in Microsft Excel. The model was trained with an accuracy rate of 99%.
 - Multiple images of cherry leaves can be uploaded.
 
 
