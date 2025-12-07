@@ -108,3 +108,9 @@ def image_montage(dir_path, label_to_display, nrows, ncols, figsize=(15, 10)):
     else:
         print("The label you selected doesn't exist.")
         print(f"The existing options are: {labels}")
+
+    st.warning(
+          f"* The montage displays a random set of images of either \n"
+          f"healthy or powdery mildew cherry leaves as selected. Press \n"
+          f"Create Montage again for a new selection"
+          )
