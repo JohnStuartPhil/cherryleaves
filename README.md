@@ -20,22 +20,35 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 #### Hypothesis
 - We are already aware that there is a visable difference between a healthy cherry leaf and a cherry leaf with a powdery mildew on it.
+
+#### Validation
 - In order to investigate between a healthy cherry leaf and a cherry leaf with a powdery mildew, an average image study shall be conducted.
 
 ### Relating to usiness requirement 2
 
 #### Hypothesis
 - It is requirement that when an image of a cherry leaf is uploaded to the site that is predicts if the cherry leaf is healthy or has powdery mildew with an an accuracy of at least 97%
+#### Validation
 - In order to carry this out, a model shall be trained using the images and calculating the accuracy
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-- List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+#### Business Requirement 1
+
+- In business requirement 1, the client required visulaisation to differentiate between healthy cherry leaves and cherry leaves with a powdery mildew. To facilitate this, images of the healthy cherry leaves and the cherry leaves with a powdery midlew were shown together to provide an average image of a healthy cherry leaf and an average image of a cherry leaf with a powdery mildew. 
+- Also provided as part of business requirement 1 was an image montage of leaves with the choice of selecting healthy or powdery mildeww.
+- Business requirement 1 was very much a presentation of the images provided to us.
+
+#### Business Requirement 2
+- Business requiremnt 2 was a more technical requirement with the client wanting a function to predict whether a cherry leaf was healthy or had powdery mildew. This involved taking the images and putting them through a model which had to be trained to recognise when an image that it was presented with could make a prediction as to whether it was a healthy cherry leaf or a powdery mildew leaf.
+- The result was a user interface with a file uploader widget. A convenient link to the kaggle dataset is provided and the user can select any leaf (helathy or powder mildew), drag and drop the file where indicated and a prediction on the leaf in question shall be made. 
+- The prediction made, clearly states if it is belived to be healthy or pwodery mildew, displays the leaf selected, provides a graph showing the percentage of the chances of the leaf being either helthly or with powdery mildew and the option to donwload a reposrt of the anaylsys in Microsft Excel.
+- Multiple images of cherry leaves can be uploaded.
 
 
 ## Machine Learning (ML) Business Case
 
-- As part of the 2nd business requirement, the client requires an app that provides a prediction of whether a cherry leaf is healthy or whether is has a pwodery mildew. 
+- As part of the 2nd business requirement, the client requires an app that provides a prediction of whether a cherry leaf is healthy or whether is has a pwodery mildew.
 - A Machine Learning (ML) model was therefore required to be fitted in order to acheive this requirement. 
 - As there were only two types of cherry leaves, a binary classifier model featuring a binary_crossentropy loss and an Adam optimiser was selected.
 - The model gave a normal fit and retunred a **99%** level of accuracy, 2% more than the clients minimum requiremnet of 97%. Please see the model learning curve below:
@@ -131,25 +144,24 @@ To save time in this process, the IT team suggested an ML system that detects in
 - The App live link is: [Cherry Leaves Mildew Detection](https://jsp-mildew-detection-in-cherry-leaves.onrender.com)
 - The project was deployed to Render using the following steps.
 
-1. Log in to Render and create an App
-2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button Open App on the top of the page to access your App.
+1. Delete Procfile (if applicable)
+2. Log in to Render and create an App
+3. Connect GitHub
+4. Click on +New
+5. Select Web Service
+6. Select your Repository from GitHub to connect
+7. In Language, type in Python 3
+8. In Branch, type in Main
+9. Select your nearest Region
+10. In Build command, type in pip install -r requirements.txt && ./setup.sh
+11. In Start Command, type in streamlit run app.py
+12. Click on Deply Web Service
+13. The deployment process should happen smoothly if all deployment files are fully functional.
+14. Click the link provided by Render to access your App.
 
 ## Main Data Analysis and Machine Learning Libraries
 
 - Here, you should list the libraries used in the project and provide an example(s) of how you used these libraries.
-- NumPy -
-- Pandas -
-- Matplotlib -
-- Seaborn -
-- Plotly -
-- Pillow -
-- Streamlit - used for the app interface which is deployed to Render
-- Joblib - 
-- Scikit-learn - used for predictive analysis
-- TensorFlow and Keras - used to train the model
 
 ## Epics and User Stories
 
