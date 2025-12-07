@@ -174,17 +174,15 @@ There are 5 pages in total which can be accessed using radio buttons from the me
 
 ## Main Data Analysis and Machine Learning Libraries
 
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- plotly
-- Pillow
-- streamlit
-- joblib
-- scikit-learn
-- tensorflow-cpu
-- keras
+- numpy - this puts the data into an array
+- pandas - this was used used for manipluating data such as augmentation in the Modelling and Evaluating notebook
+- matplotlib - this was used to provide data visulaisation
+- seaborn - this was used to provide data visulaisation
+- plotly - this was used for plotting graphs and charts
+- streamlit - this was used for the app interface which is deployed to Render
+- joblib - this was used for saving files (arrays, models etc)
+- tensorflow - this was used for training the model in the Modelling and Evaluatiing notebook
+- keras - this was used for training the model in the Modelling and Evaluatiing notebook
 
 
 ## Epics and User Stories
