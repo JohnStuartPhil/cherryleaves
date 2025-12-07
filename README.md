@@ -181,8 +181,8 @@ There are 5 pages in total which can be accessed using radio buttons from the me
 - plotly - this was used for plotting graphs and charts
 - streamlit - this was used for the app interface which is deployed to Render
 - joblib - this was used for saving files (arrays, models etc)
-- tensorflow - this was used for training the model in the Modelling and Evaluatiing notebook
-- keras - this was used for training the model in the Modelling and Evaluatiing notebook
+- tensorflow - this was used for training the model in the Modelling and Evaluating notebook
+- keras - this was used for training the model in the Modelling and Evaluating notebook
 
 
 ## Epics and User Stories
