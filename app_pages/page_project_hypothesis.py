@@ -14,7 +14,11 @@ def page_project_hypothesis_body():
 
     st.success(
         f"**Validation** \n\n"
-        f"* text here. \n"
+        f"* The average images in the Cherry Leaves Visuliser page and. \n"
+        f"the image monatge show that the cherry leaves with a powdery \n"
+        f"mildew have a distintive white marks resembling that of a \n"
+        f"powder in comparison to the healthy cherry leaves which are \n"
+        f"distinctively green."
     )
 
     st.write("### Business Requirement 2: Hypothesis and Validation")
