@@ -19,24 +19,25 @@ To save time in this process, the IT team suggested an ML system that detects in
 ### Relating to business requirement 1
 
 #### Hypothesis
-- We are already aware that there is a visable difference between a healthy cherry leaf and a cherry leaf with a powdery mildew on it.
+- We are already aware that there is a visable difference between a healthy cherry leaf and a cherry leaf with a powdery mildew on it by looking at it.
 
 #### Validation
-- In order to investigate between a healthy cherry leaf and a cherry leaf with a powdery mildew, an average image study shall be conducted.
+- The average images in the Cherry Leaves Visuliser page and the image monatge show that the cherry leaves with a powdery mildew have a distintive white marks resembling that of a powder in comparison to the healthy cherry leaves which are distinctively green.
 
-### Relating to usiness requirement 2
+### Relating to business requirement 2
 
 #### Hypothesis
-- It is requirement that when an image of a cherry leaf is uploaded to the site that is predicts if the cherry leaf is healthy or has powdery mildew with an an accuracy of at least 97%
+- While it is fairly easy to look at one image of a cherry leaf to see if it is healthy or has powdery mildew, examining multiple images may not be so staright forward. We can therefore facilitate the ability to upload images and for a predition to be made as to whether the leaves are healthy or have a powdery mildew on them by dragging and dropping the images to a widget.
+- 
 #### Validation
-- In order to carry this out, a model shall be trained using the images and calculating the accuracy with accuracy rate of at least 97%.
+- The predition of whether a cherry leaf is healthy or has powdery mildew is provided with a 99% level of accuracy.
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
 #### Business Requirement 1
 
 - In business requirement 1, the client required visulaisation to differentiate between healthy cherry leaves and cherry leaves with a powdery mildew. To facilitate this, images of the healthy cherry leaves and the cherry leaves with a powdery midlew were shown together to provide an average image of a healthy cherry leaf and an average image of a cherry leaf with a powdery mildew. 
-- Also provided as part of business requirement 1 was an image montage of leaves with the choice of selecting healthy or powdery mildeww.
+- Also provided as part of business requirement 1 was an image montage of leaves with the choice of selecting healthy or powdery mildew.
 - Business requirement 1 was very much a presentation of the images provided to us.
 
 #### Business Requirement 2
