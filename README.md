@@ -166,7 +166,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Epics and User Stories
 
-Please see the [Milestones](https://github.com/JohnStuartPhil/cherryleaves/milestones) section of this repository to view the epics which are further broken down into User Stories.
+Please see the [Milestones](https://github.com/JohnStuartPhil/cherryleaves/milestones) section of this repository to view the epics which are further broken down into User Stories. The User Stories can be viewed in the [Project](https://github.com/JohnStuartPhil/cherryleaves/projects) section.
 
 ## Credits
 
