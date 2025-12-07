@@ -47,6 +47,6 @@ def page_ml_performance_metrics():
     st.info(
         f"**Summary of the above** \n\n"
         f"* The learning curves shown above indicate that the model is a "
-        f"normal fit and that the accuracy is at 99% thus meeting Business "
-        f"Requirement 2."
+        f"normal fit and that the accuracy is at 99%, providing a sucessful  "
+        f"outcome and thus meeting Business Requirement 2."
         )

@@ -39,5 +39,7 @@ def page_project_hypothesis_body():
         f"* When the images have been uploaded, each image clearly states \n"
         f"its prediction of whether it is a healthy cherry leaf image or \n"
         f"a cherry leaf image with a powdery mildew. A small graph also \n"
-        f"indicates the probabilty. This is done with a 99% accuraccy rate."
+        f"indicates the probabilty. This is done with a 99% accuraccy \n"
+        f"thus providing a sucessful outcome as the clients requirement \n"
+        f"was 97%."
     )
